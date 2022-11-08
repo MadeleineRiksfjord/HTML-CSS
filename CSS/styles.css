@@ -1,0 +1,40 @@
+body {
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+Header li {
+    display:inline;
+}
+
+.shoppingcart {
+    float:right;
+}
+
+.logo {
+    
+}
+
+.list {
+    float:left;
+}
+
+main div {
+    padding:30px;
+}
+
+.cta {
+    background-color:#74868C;
+    color:#FFF;
+}
+
+footer {
+    padding:40px;
+    padding-bottom: 60px;
+    background-color:#74868C;
+    color: #FFF;
+}
+
+footer a {
+    color: #FFF;
+}
