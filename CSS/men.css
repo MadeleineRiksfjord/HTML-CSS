@@ -1,0 +1,82 @@
+.navbar {
+    background-color: #74868C;
+    overflow: hidden;
+}
+.navbar a {
+    float:left;
+    color:#fff;
+    text-align: center;
+    padding:10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    padding-right:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: rgb(247, 247, 248);
+}
+
+.men {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:5px;
+    row-gap: 60px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    grid-column: 1/-1;
+}
+
+.addtocart {
+    background-color: #74868C;
+    color:white;
+    padding:5px;
+    width:80px;
+    border-radius: 5px;
+    
+}
+
+.link {
+    color:#FFF;
+    text-decoration: none;
+}
+
+@media(min-width:1000px) {
+    .men {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+    
+    
+    @media(min-width:200px) {
+    .men {
+        grid-template-columns: 1fr;
+        
+    }
+    .navbar a {
+        padding:5px 10px;
+    }
+}
+@media(min-width: 900px) {
+    .men {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+footer {
+    padding:40px;
+    padding-bottom: 60px;
+    background-color:#74868C;
+    color: #FFF;
+}
+
+footer a {
+    color: #FFF;
+}
