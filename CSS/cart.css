@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #74868C;
+    background-color: #556266;
     overflow: hidden;
 }
 .navbar a {
@@ -21,17 +21,22 @@
     background-color: rgb(247, 247, 248);
 }
 
-.cart {
-    display:flex;
-    justify-content: space-between;
-    padding-bottom: 30px;;
-    background-color: #74868C;
+Main {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
+
 .text {
-    position: absolute;
-    top:50%;
-    right:70%;
+    display: table-column;
+    color: #FFF;
+}
+
+.rainy {
+    display: flex;
+    justify-content: space-between;
+    background-color: #556266;
+    padding: 20px;
 }
 
 .price {
@@ -46,11 +51,6 @@
     .image {
         max-width: 140px;
         max-height: 140px;
-    }
-    .text {
-        position: absolute;
-        top:25%;
-        right:10%;
     }
     .navbar a {
         padding:5px 10px;
@@ -75,7 +75,7 @@
 }
 
 .button {
-    background-color: #74868C;
+    background-color: #556266;
     color:#FFF;
     text-decoration: none;
     padding:5px;
@@ -91,7 +91,7 @@
 footer {
     padding:40px;
     padding-bottom: 60px;
-    background-color:#74868C;
+    background-color:#556266;
     color: #FFF;
 }
 

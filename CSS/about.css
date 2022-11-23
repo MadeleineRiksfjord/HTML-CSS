@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #74868C;
+    background-color: #556266;
     overflow: hidden;
 }
 .navbar a {
@@ -30,7 +30,7 @@
 footer {
     padding:40px;
     padding-bottom: 60px;
-    background-color:#74868C;
+    background-color:#556266;
     color: #FFF;
 }
 
