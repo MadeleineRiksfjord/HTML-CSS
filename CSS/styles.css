@@ -20,6 +20,10 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
+h1 {
+    font-family:cursive
+}
+
 .mountain {
     width:300px;
 }
@@ -90,6 +94,12 @@ body {
 .content {
     padding: 100px;
 }
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 footer {
     background-color: #556266;
