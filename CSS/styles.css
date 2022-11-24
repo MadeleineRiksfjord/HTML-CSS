@@ -116,3 +116,35 @@ footer a {
     color:#FFF;
     text-decoration: none;
 }
+
+@media(min-width:1212px) {
+    .new-in {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:1211px) {
+    .new-in {
+        grid-template-columns: 1fr;
+    }
+    .product-container {
+        display:block;
+    }
+    .navbar {
+        font-size: 10px;
+    }
+    .mountain {
+        width: 100px;
+    }
+    .cart {
+        width: 20px;
+    }
+    .big-button {
+        width:80px;
+        padding:20;
+        font-size: 20px;
+    }
+    .blurred {
+        height:400px;
+    }
+}
